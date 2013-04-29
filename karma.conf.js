@@ -13,8 +13,8 @@ files = [
   REQUIRE,
   REQUIRE_ADAPTER,
   'src/components/angular/angular.js',
-  'src/components/angular-mocks/angular-mocks.js',
   'src/components/angular-resource/angular-resource.js',
+  'src/components/angular-mocks/angular-mocks.js',
   'src/js/*.js',
   'test/unit/*.js'
 ];
