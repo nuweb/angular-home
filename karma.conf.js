@@ -12,10 +12,11 @@ files = [
   JASMINE_ADAPTER,
   REQUIRE,
   REQUIRE_ADAPTER,
+  'src/components/angular/angular.js',
+  'src/components/angular-mocks/angular-mocks.js',
   'test/unit/*.js',
   'test/unit/',
   '*Spec.js',
-  'test/unit/*.js',
   {pattern: 'src/js/*.js', included: false}
 ];
 
