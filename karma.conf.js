@@ -14,17 +14,13 @@ files = [
   REQUIRE_ADAPTER,
   'src/components/angular/angular.js',
   'src/components/angular-mocks/angular-mocks.js',
-  'test/unit/*.js',
-  'test/unit/',
-  '*Spec.js',
-  {pattern: 'src/js/*.js', included: false}
+  'src/components/angular-resource/angular-resource.js',
+  'src/js/*.js',
+  'test/unit/*.js'
 ];
-
 
 // list of files to exclude
-exclude = [
-  
-];
+exclude = [];
 
 
 // test results reporter to use
@@ -61,7 +57,7 @@ autoWatch = true;
 // - Safari (only Mac)
 // - PhantomJS
 // - IE (only Windows)
-browsers = ['PhantomJS'];
+browsers = ['ChromeCanary'];
 
 
 // If browser does not capture in given timeout [ms], kill it

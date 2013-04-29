@@ -1,7 +1,7 @@
 require.config({
   paths: {
-    angular: '/components/angular/angular',
-    angularResource: '/components/angular-resource/angular-resource'
+    angular: 'components/angular/angular',
+    angularResource: 'components/angular-resource/angular-resource'
   },
   shim: {
     'controllers/homeCtrl': {
@@ -10,11 +10,11 @@ require.config({
     'controllers/aboutCtrl': {
       deps: ['app']
     },
-    'libs/angular-resource': {
-      deps: ['libs/angular']
+    'angularResource': {
+      deps: ['angular']
     },
     'app': {
-      deps: ['libs/angular', 'libs/angular-resource']
+      deps: ['angular', 'angularResource']
     },
     'bootstrap': {
       deps: ['app']
