@@ -6,7 +6,7 @@
     "angular-resource": "~1.0.6",
     "angular-cookies": "~1.0.6",
     "angular-sanitize": "~1.0.6",
-    "jquery" : "latest",
+    "jquery" : "1.9.1",
     "bootstrap" : "http://twitter.github.com/bootstrap/assets/bootstrap.zip",
     "modernizr": "~2.6.1",
     "requirejs": "latest"
