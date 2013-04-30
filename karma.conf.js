@@ -8,20 +8,25 @@ basePath = '';
 
 // list of files / patterns to load in the browser
 files = [
-  JASMINE,
-  JASMINE_ADAPTER,
-  REQUIRE,
-  REQUIRE_ADAPTER,
-  'src/components/angular/angular.js',
-  'src/components/angular-resource/angular-resource.js',
-  'src/components/angular-mocks/angular-mocks.js',
-  'src/js/*.js',
-  'test/unit/*.js'
+	JASMINE,
+	JASMINE_ADAPTER,
+	REQUIRE,
+	REQUIRE_ADAPTER,
+	{pattern: 'src/js/*.js', included: false},
+	{pattern: 'test/**/*Spec.js', included: false},
+	'test/test-main.js'
 ];
+
+/*
+'src/components/angular/angular.js',
+'src/components/angular-resource/angular-resource.js',
+'src/components/angular-mocks/angular-mocks.js',
+'src/js/*.js',
+'test/unit/*.js'
+*/
 
 // list of files to exclude
 exclude = [];
-
 
 // test results reporter to use
 // possible values: 'dots', 'progress', 'junit'

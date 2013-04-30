@@ -1,7 +1,7 @@
 require.config({
   paths: {
-    angular: 'components/angular/angular',
-    angularResource: 'components/angular-resource/angular-resource'
+    angular: 'libs/angular',
+    angularResource: 'libs/angular-resource'
   },
   shim: {
     'controllers/homeCtrl': {
