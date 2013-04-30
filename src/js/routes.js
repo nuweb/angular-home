@@ -3,10 +3,10 @@ angular.module('app').config([
     console.log($routeProvider);
     return $routeProvider.when('/home', {
       controller: 'homeCtrl',
-      templateUrl: '/views/home.html'
+      templateUrl: 'views/home.html'
     }).when('/about', {
       controller: 'aboutCtrl',
-      templateUrl: '/views/about.html'
+      templateUrl: 'views/about.html'
     }).otherwise({
       redirectTo: '/home'
     });
