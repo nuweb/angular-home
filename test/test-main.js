@@ -9,6 +9,17 @@ requirejs.config({
         'angularResource': '../src/js/libs/angular-resource',
         'app': '../src/js/app'
     },
+
+    shim: {
+        'app': {
+            deps: ['angular', 'angularResource'],
+            exports: 'app'
+        },
+        'angularResource': {
+            deps: ['angular'],
+            exports: 'angularResource'
+        }
+    },
     // ask Require.js to load these files (all our tests)
     deps: tests,
     // start test run, once Require.js is done

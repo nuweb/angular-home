@@ -13,6 +13,7 @@ files = [
 	REQUIRE,
 	REQUIRE_ADAPTER,
 	{pattern: 'src/js/*.js', included: false},
+	{pattern: 'src/js/libs/*.js', included: false},
 	{pattern: 'test/**/*Spec.js', included: false},
 	'test/test-main.js'
 ];
