@@ -7,17 +7,21 @@ requirejs.config({
     paths: {
         'angular': '../src/js/libs/angular',
         'angularResource': '../src/js/libs/angular-resource',
+        'angularMocks': '../src/components/angular-mocks/angular-mocks',
         'app': '../src/js/app'
     },
 
     shim: {
         'app': {
-            deps: ['angular', 'angularResource'],
+            deps: ['angular', 'angularResource', 'angularMocks'],
             exports: 'app'
         },
         'angularResource': {
             deps: ['angular'],
             exports: 'angularResource'
+        },
+        'angularMocks': {
+            deps: ['angularResource']
         }
     },
     // ask Require.js to load these files (all our tests)
