@@ -7,9 +7,9 @@ module.exports = function(grunt) {
 			options: {
 				specs : 'test/unit/appSpec.js',
 				vendor: [
-					'/src/components/angular/angular.js',
-					'/src/components/angular-resource/angular-resource.js',
-					'/src/components/angular-mocks/angular-mocks.js'
+					'src/components/angular/angular.js',
+					'src/components/angular-resource/angular-resource.js',
+					'src/components/angular-mocks/angular-mocks.js'
 				]
 			}
 		}
