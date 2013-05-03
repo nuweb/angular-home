@@ -2,3 +2,4 @@ node_modules
 src/components
 src/node_modules
 .grunt
+_SpecRunner.html
