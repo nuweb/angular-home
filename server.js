@@ -9,7 +9,7 @@ app.use('/', express.static(__dirname + "/"));
 /*
 app.get('/api/login', function(req, res){
 	// Query the database for that ID and send the response
-	res.jsonp({ user: 'veeracs' });
+	res.jsonp({ user: 'Chandra' });
 });
 */
 

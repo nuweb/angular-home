@@ -1,6 +1,6 @@
 {
-  "name": "CNID",
-  "version": "0.0.0",
+  "name": "cnid-client",
+  "version": "0.0.1",
   "dependencies": {
     "angular": "~1.0.6",
     "angular-resource": "~1.0.6",
@@ -9,7 +9,8 @@
     "jquery" : "1.9.1",
     "bootstrap" : "http://twitter.github.com/bootstrap/assets/bootstrap.zip",
     "modernizr": "~2.6.1",
-    "requirejs": "latest"
+    "requirejs": "latest",
+    "jasmine": "latest"
   },
   "devDependencies": {
     "angular-mocks": "~1.0.6",

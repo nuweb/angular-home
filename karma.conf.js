@@ -12,22 +12,17 @@ files = [
 	JASMINE_ADAPTER,
 	REQUIRE,
 	REQUIRE_ADAPTER,
+	'src/components/angular/angular.js',
+	'src/components/angular-resource/angular-resource.js',
+	'src/components/angular-mocks/angular-mocks.js',
 	{pattern: 'src/js/*.js', included: false},
-	{pattern: 'src/js/libs/*.js', included: false},
+	{pattern: 'src/js/**/*.js', included: false},
 	{pattern: 'test/**/*Spec.js', included: false},
 	'test/test-main.js'
 ];
 
-/*
-'src/components/angular/angular.js',
-'src/components/angular-resource/angular-resource.js',
-'src/components/angular-mocks/angular-mocks.js',
-'src/js/*.js',
-'test/unit/*.js'
-*/
-
 // list of files to exclude
-exclude = [];
+exclude = ['src/js/main.js'];
 
 // test results reporter to use
 // possible values: 'dots', 'progress', 'junit'
@@ -52,7 +47,7 @@ logLevel = LOG_INFO;
 
 
 // enable / disable watching file and executing tests whenever any file changes
-autoWatch = true;
+autoWatch = false;
 
 
 // Start these browsers, currently available:
@@ -72,4 +67,4 @@ captureTimeout = 60000;
 
 // Continuous Integration mode
 // if true, it capture browsers, run tests and exit
-singleRun = false;
+singleRun = true;

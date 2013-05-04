@@ -1,9 +1,10 @@
 {
-  "name": "cnid-angular",
-  "version": "0.0.0",
-  "description": "Conde Nast Identity",
+  "name": "cnid-client",
+  "version": "0.0.1",
+  "description": "Conde Nast Identity Client",
+  "repository": "https://github.com/CondeNast/CN-Identity-client.git",
   "main": "Gruntfile.js",
-  "author": "Chandra",
+  "private": true,
   "dependencies": {
     "express": "*",
     "connect": "*"
@@ -32,5 +33,15 @@
     "grunt-google-cdn": "~0.1.1",
     "grunt-ngmin": "~0.0.2",
     "grunt-contrib-jasmine": "~0.4.2"
-  }
+  },
+  "author": {
+    "name": "Conde Nast Digital"
+  },
+  "contributors": [
+    {
+      "name": "Chandra Veera",
+      "email": "Chandra_Veera@condenast.com"
+    }
+  ],
+  "license": "Non-free/Closed-source"
 }

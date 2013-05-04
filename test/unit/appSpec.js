@@ -1,4 +1,4 @@
-// define(['app', 'angular', 'angularResource'], function() {
+define(['app', 'angular', 'angularResource', 'angularMocks'], function() {
 	describe('My App', function() {
 		// load the relevant application modules then load a special
 		// test module which overrides the $window with a mock version,
@@ -32,4 +32,4 @@
 			});
 		});
 	});
-// });
+});
