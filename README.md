@@ -1,6 +1,3 @@
-CN-Identity-client
-==================
-
 <b>To run the server</b>
 
 npm install && bower install && node server
